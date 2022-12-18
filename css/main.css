@@ -128,16 +128,19 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 
 /* -------------- Mobile Header - Homepage -------------- */
 
+/* Hero Area */
+
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
+
+/* Aside */
 
 aside {
   display: flex;
@@ -146,10 +149,12 @@ aside {
   flex-flow: row wrap;
 }
 
+/* Features */
+
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
 
 .features .feature-items {
@@ -159,12 +164,18 @@ aside {
   flex-flow: row wrap;
 }
 
+/* Reviews */
+
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+
 
 .mission {
   display: flex;
@@ -179,6 +190,10 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
 
 .faq {
   display: flex;
@@ -200,13 +215,13 @@ footer {
 
 }
 
-footer social-icons {
+footer .social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-footer .social p {
+footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
