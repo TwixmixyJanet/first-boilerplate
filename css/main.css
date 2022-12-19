@@ -97,7 +97,7 @@ html {
  
 body {
   font-size: 1em;
-  background-color: #000;
+  background-color: #202322;
   color: #e2e3ed;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
@@ -159,44 +159,6 @@ address {
   margin: 50px 0;
 }
 
-.hero-area h1 {
-  font-size: 3.75em;
-}
-
-.text {
-  background-color: white;
-  border: none;
-  color: #9d9ea4;
-  padding: 15px 32px;
-  text-align: justify;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.125em;
-  font-style: italic;
-  width: 256px;
-}
-
-.button {
-  background-color: #2a423a; /* Dark Green */
-  border: none;
-  color: #e2e3ed;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  display: inline-block;
-  font-size: 1.5em;
-  width: 320px;
-}
-
-input {
-  margin: 10px 0;
-}
-
-.footer-content {
-  text-align: center;
-}
-
 .copyright {
   text-align: center;
 }
@@ -219,6 +181,7 @@ header {
 }
 
 header .content-wrapper {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -226,6 +189,7 @@ header .content-wrapper {
 }
 
 .header-divider {
+  background: #3a3a3a; 
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -245,11 +209,8 @@ header nav ul {
   width: 100%;
 }
 
-/* -------------- Base Content Styles -------------- */
-
-.content-wrapper {
-  width: 90%;
-  margin: 50px 0;
+header nav ul li {
+  font-size: 1.125em;
 }
 
 /* -------------- Mobile Header - Homepage -------------- */
@@ -262,13 +223,47 @@ header nav ul {
   flex-flow: row wrap;
 }
 
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500; 
+  line-height: 1.2; 
+}
+
 /* Aside */
 
 aside {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -296,12 +291,14 @@ aside {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
 /* Reviews */
 
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -314,6 +311,7 @@ aside {
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 /* ==========================================================================
@@ -322,6 +320,7 @@ aside {
 
 
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -329,6 +328,7 @@ aside {
 }
 
 .contact-section {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -344,6 +344,7 @@ aside {
    ========================================================================== */
 
 .faq {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -360,15 +361,21 @@ aside {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content {
   margin-bottom: 50px;
 }
 
+.faq-content h3 {
+  line-height: 1.333;
+}
+
 /* Footer */
 
 footer {
+  text-align: center;
   flex-direction: column;
 }
 
@@ -531,6 +538,7 @@ Main Page
 */
    
       /* Hero Area */
+
    
       /* Aside */
       aside .content-wrapper {
@@ -665,6 +673,8 @@ Main Page
 
       .hero-area h1 {
         width: 80%;
+        font-size: 3.75em;
+        line-height: 1.2;
       }
    
       /* Aside */
