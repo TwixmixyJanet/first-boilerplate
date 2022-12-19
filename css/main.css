@@ -138,7 +138,7 @@ p {
 }
  
 img {
-
+  width: 100%;
 }
  
 figure {
@@ -221,6 +221,8 @@ header nav ul li {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .hero-area h1 {
