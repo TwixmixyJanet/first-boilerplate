@@ -11,6 +11,8 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 html {
   color: #222;
   font-size: 1em;
@@ -87,6 +89,119 @@ textarea {
    Twixmixy's custom styles
    ========================================================================== */
 
+/* General Styles */
+ 
+html {
+	font-size: 16px;
+}
+ 
+body {
+  font-size: 1em;
+  background-color: #000;
+  color: #e2e3ed;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}
+ 
+ul, 
+ol {
+  list-style-type: none;
+}
+ 
+a {
+  color: #e2e3ed;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.25em;
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3em;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.875em;
+  line-height: normal;
+}
+ 
+p {
+  font-size: 1.125em;
+  line-height: 1.5em;
+}
+ 
+img {
+
+}
+ 
+figure {
+ 
+}
+
+.faq-content h3 {
+  font-size: 1.125em;
+  line-height: 1.5em;
+}
+ 
+address {
+  font-style: normal;
+}
+ 
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+.hero-area h1 {
+  font-size: 3.75em;
+}
+
+.text {
+  background-color: white;
+  border: none;
+  color: #9d9ea4;
+  padding: 15px 32px;
+  text-align: justify;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.125em;
+  font-style: italic;
+  width: 256px;
+}
+
+.button {
+  background-color: #2a423a; /* Dark Green */
+  border: none;
+  color: #e2e3ed;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 1.5em;
+  width: 320px;
+}
+
+input {
+  margin: 10px 0;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+}
+
+
 /* -------------- Base Header Styles -------------- */
 
 header,
@@ -108,11 +223,6 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 0;
-}
-
-header figure {
-
 }
 
 .header-divider {
@@ -554,7 +664,7 @@ Main Page
       /* Hero Area */
 
       .hero-area h1 {
-        width: 60%;
+        width: 80%;
       }
    
       /* Aside */
