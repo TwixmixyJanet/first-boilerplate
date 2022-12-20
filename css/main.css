@@ -234,6 +234,7 @@ header nav ul li {
 .hero-area h1 {
   font-size: 2.25em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  text-shadow: 2px 2px #000;
   font-weight: 500; 
   line-height: 1.2; 
 }
